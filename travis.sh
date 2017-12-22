@@ -14,7 +14,9 @@ echo '[is a tag] start packing'
 
 npm install
 
-npm start
+webpack -p
+
+echo "webpack success"
 
 else
 
