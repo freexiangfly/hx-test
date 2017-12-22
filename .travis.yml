@@ -1,0 +1,11 @@
+language: node_js
+
+install: true
+
+script:
+  - chmod 755 ./travis.sh
+  - ./travis.sh
+
+cache:
+  directories:
+    - ./node_modules
